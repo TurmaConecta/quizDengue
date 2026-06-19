@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Dengue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <section id="QuizArea">
+
+    <div class="container">
+
+        <!-- Tela Inicial -->
+        <div id="TelaInicial">
+            <h1>Quiz: Dengue</h1>
+            <p>Desenvolvido por alunas: RTJLL</p>
+
+            <button id="BotaoInicio" onclick="IniciarQuiz()">
+                Iniciar Quiz
+            </button>
+        </div>
+
+        <!-- Tela do Quiz -->
+        <div id="QuizPerguntas" style="display:none;">
+
+            <div id="ContadorPergunta"></div>
+
+            <div style="width:100%; background:#ddd; height:20px;">
+                <div id="BarraDeProgresso"
+                     style="height:20px; width:0%; background:green;">
+                </div>
+            </div>
+
+            <div id="Temporizador">
+                Tempo: 0s
+            </div>
+
+            <h2 id="TituloPergunta"></h2>
+
+            <div id="Alternativas"></div>
+
+        </div>
+
+        <!-- Tela Final -->
+        <div id="TelaFinal" style="display:none;">
+
+            <h1>Resultado</h1>
+
+            <div id="Resultado"></div>
+
+            <div id="RelatorioErros"></div>
+
+            <button onclick="reiniciarQuiz()">
+                Jogar Novamente
+            </button>
+
+        </div>
+        </section>
+
+        </div>
+<section id="estudos">
+
+    <h1>📚 Central de Estudos</h1>
+
+    <p>
+        Role os conteúdos abaixo para aprender mais sobre os temas do quiz.
+    </p>
+
+    <div class="carrossel">
+
+        <div class="card" onclick="mostrarConteudo(0)">
+            "O Horário de Maior Perigo 🕐"
+        </div>
+
+	<div class="card" onclick="mostrarConteudo(1)">
+            "O Inimigo Número Um da Dengue 🦟"
+        </div>
+
+        <div class="card" onclick="mostrarConteudo(2)">
+            " Como a Dengue é Transmitida? "
+        </div>
+
+        <div class="card" onclick="mostrarConteudo(3)">
+            "Conheça o Vilão: O Vírus da Dengue 🔬"
+        </div>
+
+        <div class="card" onclick="mostrarConteudo(4)">
+            "Ciclo Exclusivo de Transmissão 🔂"
+        </div>
+
+        <div class="card" onclick="mostrarConteudo(5)">
+            "Os 4 Tipos de Dengue 🔢"
+        </div>
+
+        <div class="card" onclick="mostrarConteudo(6)">
+            "Por que Elas nos Picam? 🩸"
+        </div>
+
+        <div class="card" onclick="mostrarConteudo(7)">
+            "Sinal de Alarme: Dor Abdominal Intensa 🚨"
+        </div>
+
+        <div class="card" onclick="mostrarConteudo(8)">
+            "O Mito da Imunidade Total 🛡️"
+        </div>
+
+        <div class="card" onclick="mostrarConteudo(9)">
+            "O Segredo da Prevenção: Água Parada Zero 💧"
+        </div>
+
+</div>
+
+
+    <div id="conteudoExtra">
+
+        <h2>Selecione um tema acima</h2>
+
+    </div>
+
+</section>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
