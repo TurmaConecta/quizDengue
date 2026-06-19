@@ -1,0 +1,149 @@
+/* Fundo geral */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff8dc;
+    text-align: center;
+    background-image: url("imagens/fundo.png");
+    background-size: cover;
+    background-position: fixed;
+}
+
+/* Container */
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Tela Inicial */
+#TelaInicial{
+    background-color: #ffd54f;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* Títulos */
+h1{
+    color: #5d4037;
+}
+
+h2{
+    color: #795548;
+}
+
+/* Parágrafos */
+p{
+    color: #424242;
+}
+
+/* Botões */
+button,
+#BotaoInicio{
+    background-color: #ffca28;
+    color: #000;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #ffb300;
+    transform: scale(1.05);
+}
+
+/* Área do Quiz */
+#QuizPerguntas{
+    background-color: #fffde7;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Barra de Progresso */
+#BarraDeProgresso{
+    background-color: #fbc02d;
+    border-radius: 10px;
+}
+
+/* Pergunta */
+#TituloPergunta{
+    background-color: #fff9c4;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Temporizador */
+#Temporizador{
+    font-weight: bold;
+    color: #e65100;
+    margin: 10px 0;
+}
+
+/* Tela Final */
+#TelaFinal{
+    background-color: #fff3e0;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* Resultado */
+#Resultado{
+    background-color: #ffe082;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Relatório de erros */
+#RelatorioErros{
+    margin-top: 20px;
+    text-align: left;
+    background-color: #fff8e1;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* ===== CENTRAL DE ESTUDOS ===== */
+
+#estudos{
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.carrossel{
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 15px;
+}
+
+/* Cards */
+.card{
+    min-width: 220px;
+    background-color: #ffd54f;
+    color: #4e342e;
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.card:hover{
+    background-color: #ffca28;
+    transform: translateY(-5px);
+}
+
+/* Conteúdo dos estudos */
+#conteudoExtra{
+    margin-top: 25px;
+    background-color: #fffde7;
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 150px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
